@@ -192,8 +192,8 @@
  grid-column: 2 / 4; 
 }
 .about__column_short {
-  grid-column: 1 / 2;
   display: flex;
+  grid-column: 1 / 2;
   justify-content: center;
 }
 .about__column_large {
@@ -201,14 +201,14 @@
   padding: 10px 18px 0;
 }
 .about__logo {
-  height: 240px;
-  width: 240px;
-  background-color: rgba(0, 0, 0, 1);
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15px
+  width: 240px;
+  height: 240px;
+  margin-left: 15px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 1);
 }
 .about__logo-image {
   width: 148px;
@@ -220,26 +220,26 @@
   text-transform: uppercase;
 }
 .about__text {
-  font-size: 20px;
   padding-bottom: 20px;
+  font-size: 20px;
 }
 .about__text:last-child {
   padding-bottom: 0;
 }
 .footer {
-  padding: 90px 50px;
   display: flex;
   justify-content: space-between;
+  padding: 90px 50px;
 }
 .footer__menu-list-item {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.01em;
-  list-style-type: none;
+  text-align: center;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
-  text-align: center;
+  list-style-type: none;
 }
 .footer__menu-link_active {
   text-decoration: none;
@@ -252,6 +252,6 @@
 }
 
 .footer__social-icon {
-  height: 48px;
   width: 48px;
+  height: 48px;
 }
